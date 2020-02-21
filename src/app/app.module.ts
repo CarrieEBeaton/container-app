@@ -14,6 +14,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { UserModule } from './user/user.module';
 import { HomeContainerComponent } from './home/containers/home-container/home-container.component';
 import { SharedData } from './state/shared-data';
+import { AccountLibModule } from 'account-lib';
+// import { AccountContainerComponent } from './../../account-lib/lib/containers/account-container/account-container.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import { SharedData } from './state/shared-data';
     }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  // entryComponents: [ AccountContainerComponent ]
 })
 export class AppModule { }

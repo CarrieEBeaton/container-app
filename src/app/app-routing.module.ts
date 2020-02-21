@@ -21,7 +21,7 @@ const appRoutes: Routes = [
       {
         path: 'accounts',
         // canActivate: [AuthGuard],
-        loadChildren: () => AccountLibModule
+        loadChildren:  () => AccountLibModule
       },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: 'login', component: LoginComponent }
@@ -32,6 +32,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports: [
+    RouterModule,
     RouterModule.forRoot(appRoutes)
   ],
   exports: [RouterModule]

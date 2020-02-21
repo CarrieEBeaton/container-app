@@ -8,7 +8,7 @@ import { AuthService } from 'src/app/user/auth.service';
   templateUrl: './menu.component.html'
 })
 export class MenuComponent implements OnInit {
-  pageTitle = 'Menu';
+  pageTitle = 'MFE POC';
 
   constructor(private router: Router,
     private authService: AuthService) { }
