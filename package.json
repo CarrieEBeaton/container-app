@@ -23,7 +23,7 @@
     "@ngrx/effects": "^8.6.0",
     "@ngrx/store": "^8.6.0",
     "account-lib": "0.0.4",
-    "booking-lib": "^0.0.1",
+    "booking-lib": "^1.0.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
