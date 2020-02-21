@@ -22,7 +22,7 @@
     "@angular/router": "^8.2.14",
     "@ngrx/effects": "^8.6.0",
     "@ngrx/store": "^8.6.0",
-    "account-lib": "0.0.4",
+    "account-lib": "^1.0.0",
     "booking-lib": "^1.0.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.2.0",
